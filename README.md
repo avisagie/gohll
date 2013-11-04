@@ -1,8 +1,8 @@
 gohll
 =====
 
-A simple implementation of HyperLogLog in plain [Go](golang.org) for 
-32-bit hash functions.
+A simple implementation of HyperLogLog in plain [Go](http://golang.org/) 
+for 32-bit hash functions.
 
 HyperLogLog lets you work out an approximate count of the number of
 unique items in a large set of items, using a very small amount
