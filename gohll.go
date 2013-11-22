@@ -1,3 +1,6 @@
+// Use of this source code is governed by a MIT-style license that can
+// be found in the LICENSE file.
+
 // Implementation of HyperLogLog from Flajolet et al, 2007. This is
 // the 32-bit version from the paper only. A similar analysis would be
 // required to get the constants right for 64-bit.
