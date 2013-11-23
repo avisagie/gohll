@@ -60,7 +60,7 @@ func exp(t *testing.T, b uint, N int) (errorPerc float64) {
 
 func TestClz(t *testing.T) {
 	x := uint32(0xffffffff)
-	for ii := uint(0); ii < 32; ii++ {
+	for ii := uint(0); ii <= 32; ii++ {
 		if z := clz32(x); z != ii {
 			t.Fatalf("expected %d, clz says %d. x = 0x%08x", ii, z, x)
 		}
